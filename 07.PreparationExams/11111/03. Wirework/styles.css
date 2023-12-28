@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font: 24px/1.5 'Helvetica';
+}
+body{
+    width:1080px ;
+    margin: 0 auto;
+    text-align: center;
+}
+.site{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.bar{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.left-bar{
+    display: flex;
+    text-align: center;
+}
+.left-bar a{
+    text-decoration: none;
+    align-items: center;
+    padding: 0 15px;
+    color: black;
+    
+}
+.left-bar a:last-child{
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+.logo{
+    font-size: 1.3em;
+    padding: 0 8px;
+    border-right: 3px solid gray;
+    
+    font-weight: bold;
+}
+.right-bar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-bar a{
+    
+
+    text-decoration: none;
+    background-color: rgb(233, 217, 217);
+    padding: 10px 6px;
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.right-bar a:first-child{
+    background-color: rgb(206, 77, 13);
+    color: white;
+    margin-right: 0px;
+   
+}
+.img-banner{
+   background-image:url(./images/banner.jpg);
+   background-position: center;
+   background-size: cover;
+   width:100%;
+   height: 300px;
+   
+}
+.info-site{
+    display: block;
+    padding: 250px 0;
+}
+
+.info-site p{
+    background-color: rgb(206, 77, 13);
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 50px 90px;
+    font-weight: 100;
+    width: 900px;
+}
+.info-site a {
+    color: aliceblue;
+}
+.icon-site-list{
+    margin-top: 100px;
+    padding: 3em;
+    display: flex;
+    gap: 25px; 
+    flex: 0 1 22%;
+    background-color: rgb(60, 53, 53);
+    min-height: 30px;
+}
+
+.card svg{
+    background-color: rgb(206, 77, 13);
+    padding: 1em;
+    width: 50px;
+    height: 50px;
+}
+
+.card h3{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid rgb(137, 124, 124);
+    padding-bottom: 2em;
+}
+.card p {
+    margin-top: 20px;
+    font-size: 11px;
+    color: rgb(106, 129, 148);
+}
+.line-info{
+    margin: 3em;
+    text-align: center;
+}
+.line-info p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.line-info a{
+    background-color: rgb(6, 148, 6);
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 18px;
+    margin: 20px;
+}
+.info-list{
+    display: flex;
+    flex: 0 0 22%;
+    background-color: rgb(72, 66, 66);
+    padding: 3em 1em;
+    gap: 10px;
+    text-align: center;
+    
+}
+.info-list h3{
+    color: white;font-size: 18px;
+    margin-bottom: 20px;
+}
+.info-list p {
+    font-size: 16px;
+    color: gray;
+}
+
+footer{
+    
+    margin-top: auto;
+    background-color: rgb(22, 117, 33);
+    padding: 30px;
+    font-size: 16px;
+    flex: 0 1 10%;
+    
+    justify-content: center;
+    
+}
+footer p {
+    justify-content: center;
+    color: white;
+    
+    
+}

@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+.container{
+    background-image: url(./images/background.jpg);
+    padding: 3em;
+    display: flex;
+    gap: 2em;
+    width: 1080px;
+    font-family: "Inter";
+}
+
+.card-left{
+    background-color: white;
+    margin-bottom: 2em;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    gap: 2em;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;}
+
+.card-left img{
+    border-radius: 100%;
+    width: 170px;
+    height: 130px;
+}
+.card-left h2{
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+.card-left svg{
+    width: 60px;
+    height: 60px;
+}
+
+
+.right-bar{
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding: 2em;
+    height: 460px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.right-bar svg{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2em;
+}
+.photo{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    padding: 1em;
+    border-top: 1px solid rgb(206, 200, 200);
+}
+.photo img{
+    width: 60px;
+    height: 70px;
+    border-radius: 10em;
+}
+.photo-text p {
+    margin: 0;
+    font-size: 12px;
+}
+.photo-text h3{
+    margin: 0;
+    
+}

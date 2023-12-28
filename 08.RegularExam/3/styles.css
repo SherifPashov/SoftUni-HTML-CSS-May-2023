@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{font-size: 3em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2.2em;}
+h4{font-size: 1.9em;}
+h5{font-size: 1.5em;}
+h6{font-size: 1.3em;}
+p{
+    font-size: 20px;
+}
+.site{
+    width: 100%;
+    margin: 0px 0;
+}
+.top-bar{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    margin: 20px 100px;
+    font-size: 20px;
+
+}
+.left{
+    display: flex;
+    gap: 5em;
+    
+}
+.left li {
+    display: block;
+    
+}
+.right{
+    display: flex;
+    gap: 1em;
+    
+}
+.right a{
+    padding-top: 10px;
+}
+.right .sing{
+    background-color: #ADE2DF;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.first-line{
+    background-color: #ADE2DF;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+.first-line h1 {
+    
+    padding-top: 1em;
+}
+.first-line p{
+    padding-top: 1em;
+    
+}
+.first-line-button{
+    margin-top: 2em;
+}
+.first-line-button a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+.second-line{
+    display: flex;
+    height: auto;
+    gap: 2em;
+    text-align: center;
+    margin: 40px 40px;
+}
+
+.tree-line{
+    display: flex;
+    background-color: #ADE2DF;
+    height: 300px;
+    padding: 2em 10em;
+    gap: 3em;
+}
+.tree-line-left{
+    padding : 2em;
+}
+.tree-line-left h2 {
+    padding-bottom: 1em;
+}
+.tree-line-left a {
+    color: black;
+    
+}
+.four-line{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+    background-color: #F3F5FA;
+}
+.four-line a{
+    background-color: #ADE2DF;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.four-line h2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+.cards-list{
+    display: flex;
+    gap: 3em;
+    width: 100%;
+    
+}
+.card{
+    flex: 1 1 25%;
+}
+.card header{
+    border-bottom:1px solid black;
+    padding: 1em;
+}
+.card header h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card-body{
+    padding: 10px;
+}
+.card-body a{
+    display: block;
+    background-color: #ADE2DF;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 2em;
+
+}
+.tocard{
+    background-color: #ADE2DF;
+    padding: 2em;
+}
+.tocard .da{
+ text-align: center;
+}
+.tocard p{
+    margin: 10px;
+}
+
+.tocard a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10em;
+    
+}
+.six-line{
+    background-color: #ADE2DF;
+    margin-top: 2em;
+    height: 200px;
+    text-align: center;
+}
+.six-line h1 {
+    font-size: 2pc;
+    padding-top: 20px;
+}
+.six-line p {
+    margin-bottom: 3em;
+}
+
+.buton-six-line a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: auto 0;
+}
+footer{
+    height: 50px;
+    margin: 10px 30px;
+}
